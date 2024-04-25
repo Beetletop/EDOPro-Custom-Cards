@@ -27,6 +27,7 @@ function s.initial_effect(c)
 	e3:SetCountLimit(1,id+3)
 	e3:SetCost(s.thcost)
 	e3:SetTarget(s.thtg)
+	e3:SetOp(s.spop)
 	c:RegisterEffect(e3)
 	--special summon
 	local e4=Effect.CreateEffect(c)
