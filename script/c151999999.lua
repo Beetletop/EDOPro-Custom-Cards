@@ -22,7 +22,6 @@ end
 function s.ActionStart()
 	if Duel.SelectYesNo(0,aux.Stringid(id,0)) then
 		Duel.LoadScript("c258705.lua")
-		ActionDuel.Start()
 	elseif Duel.SelectYesNo(1,aux.Stringid(id,0)) then 
 		Duel.LoadScript("c151000000.lua")
 		ActionDuel.Start()
