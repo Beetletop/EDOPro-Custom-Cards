@@ -294,6 +294,7 @@ if not ActionDuel then
 	}
 
 	local OCGActionFields={
+	258705,
 	4064256,
 	59197169,
 	4545854,
