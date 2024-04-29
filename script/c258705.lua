@@ -10,7 +10,6 @@ function s.initial_effect(c)
 end
 s.af="a"
 s.tableAction = {
-	,
 	150000001,
 	151000002,
 	151000003,
