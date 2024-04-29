@@ -21,7 +21,7 @@ function s.op(e,tp,eg,ep,ev,re,r,rp)
 end
 function s.ActionStart()
 	if Duel.SelectYesNo(0,aux.Stringid(id,0)) then
-		Duel.LoadScript("c258705.lua")
+		Duel.LoadScript("c511027151.lua")
 	elseif Duel.SelectYesNo(1,aux.Stringid(id,0)) then 
 		Duel.LoadScript("c151000000.lua")
 		ActionDuel.Start()
